@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+   font-family: "Fira Sans" , sans-serif;
+}
+.nav {
+    overflow: hidden;
+    background-color: #191919;
+    z-index: 33;
+    width: 100%;
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+
+    .nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        transition: 0.3s;
+        margin-right: 5px;
+    }
+    .nav a i.icon {
+    margin-right: 5px;
+}
+.nav a:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.menu .box .dream h3 {
+    font-size: 28px;
+    transition: 0.3s;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0 0;
+    background-color: #191919;
+    width: 100%;
+    text-align: center;
+}
+    footer .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .social li {
+        margin-right: 25px;
+    }
+    footer .social a {
+        background-color: #313131;
+        text-decoration: none;
+        color: #b9b9b9;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        transition: 0.3s;
+        border-radius: 6px;
+    }
+
+    footer .social li .facebook:hover {
+        background-color: #1877f2;
+    }
+
+    footer .social li .youtube:hover {
+        background-color: #ff0000;
+    }
+
+    footer .social li .twitter:hover {
+        background-color: #1da1f2;
+    }
+
+    footer p {
+        padding: 25px 0;
+        text-align: center;
+        color: white;
+        margin: 50px 0 0;
+        border-top: 1px solid #444;
+    }
+
+.book h1 {
+    font-size: 50px;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 20px;
+    width: 75%;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.book .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+    .book .box .dream {
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0;
+    }
+    .book .box .dream h2 {
+        text-align: left;
+        font-size: 28px;
+
+    }
+        .book .box .dream .bb {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .book .box .dream .bb div {
+            padding: 10px 0;
+        }
+        .book .box .dream .bb div h3 {
+            font-size: 18px;
+        }
+        .book .box .dream img {
+            max-width: 250px;
+            height: 320px;
+            padding-bottom: 5px;
+        }
