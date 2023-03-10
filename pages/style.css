@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+   font-family: "Fira Sans" , sans-serif;
+}
+.nav {
+    overflow: hidden;
+    background-color: #22b1b1;
+    z-index: 33;
+    width: 100%;
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+.nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-right: 5px;
+}
+.nav a:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 0;
+    padding-left: 60px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding:50px ;
+    gap: 50px;
+}
+.container .box  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    flex-grow: 1;
+    background-color: #eee; 
+    padding: 30px;
+}
+.container .box div h2 {
+    margin-bottom: 10px;
+}
+.container .box div p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.book .box img {
+    width:350px;
+    
+    
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0 0;
+    background-color: #191919;
+    width: 100%;
+    text-align: center;
+}
+
+footer .social {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer .social li {
+    margin-right: 25px;
+}
+
+footer .social a {
+    background-color: #313131;
+    text-decoration: none;
+    color: #b9b9b9;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+ footer .social li .facebook:hover {
+     background-color: #1877f2;
+}
+
+footer .social li .youtube:hover {
+    background-color: #ff0000;
+}
+
+footer .social li .twitter:hover {
+    background-color: #1da1f2;
+ }
+
+footer p {
+    padding: 25px 0;
+    text-align: center;
+    color: white;
+    margin: 50px 0 0;
+    border-top: 1px solid #313131;
+}
